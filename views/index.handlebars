@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-6">
+        <h1>Menu:</h1>
+        <ol>
+            {{#each}}
+            {{#unless eaten}}
+            {{> partials/burger-block}}
+            {{/unless}}
+            {{/each}}
+        </ol>
+    </div>
+     <div class="col-md-6">
+        <h1>All Gone!</h1>
+        <ol>
+            {{#each}}
+            {{#if eaten}}
+            {{> partials/burger-block}}
+            {{/if}}
+            {{/each}}
+        </ol>
+    </div>
+</div>
+<div class='row'>
+    <div class="col-md-12">
+        <div class="form-group">
+          <label for="newBurger">Your burger isn't here? Let's add one!</label>
+          <input type="text"
+            class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">What is your burger called?</small>
+        </div>
+        <button type="submit">Add That Burger So I Can Eat It!</button>
+    </div>
+</div>
