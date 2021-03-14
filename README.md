@@ -1,5 +1,8 @@
 # BurgerEater [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
+[Deployed Page](https://thawing-thicket-95813.herokuapp.com/)
+![screenshot](https://github.com/krcook1980/FullStackPortfolio/blob/main/assets/burgers.JPG)
+
   ## Description
    Generate a dynamic website using mysql, orm, express, and handlebars. Active page connects to Heroku database to display list of burgers. Clicking on Eat It will move the burger to the right side of the page. User is able to add a burger to the uneaten list if desired, then eat it. 
 
