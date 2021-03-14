@@ -5,7 +5,7 @@
             {{#each burgers}}
             {{#unless eaten}}
             <li>
-            {{name}} <button class="changeEaten" data-id="{{id}}" data-newEat="{{eaten}}" type="submit">Eat It!</button>
+            {{name}} <button class="changeEaten btn-sm bg-dark text-white" data-id="{{id}}" data-newEat="{{eaten}}" type="submit">Eat It!</button>
             </li>
             {{/unless}}
             {{/each}}
@@ -29,10 +29,10 @@
         <form id="create-form">
         <div class="form-group">
             <label for="newBurger">Your burger isn't here? Let's add one!</label>
-            <input type="text" class="form-control" name="" id="burg" aria-describedby="helpId" placeholder="">
-            <small id="helpId" class="form-text text-muted">What is your burger called?</small>
+            <input type="text" class="form-control" name="" id="burg" aria-describedby="helpId" placeholder="What is your burger called?">
+            
         </div>
-        <button type="submit">Add That Burger So I Can Eat It!</button>
+        <button type="submit" class="bg-dark text-white">Add That Burger So I Can Eat It!</button>
         </form>
     </div>
 </div>

@@ -6,7 +6,7 @@ const burgers = {
   },  
 
   insertOne(reqBody, cb) {
-    console.log("I made it to models")
+    
         orm.insertOne('burgers', reqBody, (res) => cb(res));
   },
 

@@ -1,3 +1,17 @@
 .jumbotron {
-    background-image: url("https://di-uploads-pod9.dealerinspire.com/raycatenajaguarofedison/uploads/2019/06/Burger-banner.jpg");
+    background-image: url("https://tayloredfoods.co.nz/wp-content/uploads/2015/02/burger-banner-1024x256.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-image: url("https://image.freepik.com/free-photo/object-symmetry-pattern-beige-brightly_1253-845.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+li {
+    font-size: larger;
+    margin-bottom: 5px;
 }
